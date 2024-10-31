@@ -1,0 +1,77 @@
+div.picasaView {
+	clear:both;
+	text-align:left;
+	overflow:visible;
+}
+
+div.picasaView small {
+	white-space:nowrap;
+}
+
+div.picasaView img {
+	float:left;
+	margin:0px 5px 15px 0px
+}
+
+div.picasaView h3 {
+	margin:0px 0px 5px 0px;
+}
+
+div#picasaViewBlock-daddy {
+	text-align:center;
+}
+
+a.picasaViewImage img {
+	margin:1px 3px 2px 0px;
+	display:inline;
+	float:none;
+}
+
+.picasaViewPageWrapper {
+	width:100%;
+	clear:both;
+	overflow:hidden;
+	position: relative;
+}
+
+.picasaViewPreviousPage {
+	width:15.33%;
+	text-align:left;
+	float: left;
+	height:50px;
+	position: relative;
+}
+
+.picasaViewCurrentPage {
+	float: left;
+	width:63.32%;
+	text-align:center;
+	height:18px; 
+	padding: 16px 0;
+	position: relative;
+	margin-left:2.33%;
+}
+
+.picasaViewNextPage {
+	float: right;
+	width:15.33%;
+	height:50px; 
+	position: relative;
+	margin-left:2.33%;
+	text-align:right;
+}
+div.picasaViewPreviousPage a {display: block; margin: 16px 0 16px 0;}
+div.picasaViewNextPage a {display: block; margin: 16px 0 16px 0;}
+
+.picasaViewBlock-son {
+	text-align:center;
+	clear:both;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}

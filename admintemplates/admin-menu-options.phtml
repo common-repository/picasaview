@@ -1,0 +1,91 @@
+<div class="wrap"><h2><?php _e('PicasaView Options','picasaView'); ?></h2>
+
+<form method="post" action="options.php">
+	<?php wp_nonce_field('update-options'); ?>
+	
+	<h3><?php _e('Connection settings', 'picasaView') ?></h3>
+	<?php if (version_compare(PHP_VERSION, '5.0.0', '<')) {
+		echo '<p style="color:red">' . __('Bad news: You need PHP5 to run this plugin, sorry. You have installed PHP ', 'picasaView') . PHP_VERSION . '</p>';
+	} elseif(!function_exists('simplexml_load_string')) {
+		echo '<p style="color:red">' . __('Bad news: the required PHP extension <code>SimpleXML</code> (which is usually enabled by default) on your server is not available. Blame your provider. Sorry.','picasaView') . '</p>';
+	} ?>
+	<table class="form-table">
+		<tbody>
+			<tr valign="top">
+				<th scope="row"><?php _e('Server-URL','picasaView'); ?>:</th>
+				<td><input name="picasaView_options[server]" type="text" id="picasaView_server" value="<?php echo htmlspecialchars($this->options['server'], ENT_QUOTES); ?>" size="50" /></td>
+			</tr>
+			<tr valign="top">
+				<th scope="row"><?php _e('User Id','picasaView'); ?>:</th>
+				<td><input name="picasaView_options[userId]" type="text" id="picasaView_userId" value="<?php echo htmlspecialchars($this->options['userid'], ENT_QUOTES); ?>" size="50" />
+				</td>
+			</tr>
+			<tr valign="top">
+				<th scope="row"><?php _e('Debug output','picasaView'); ?>:</th>
+				<td>
+					<p><label><input name="picasaView_options[showDebugOutput]" type="checkbox" value="1" <?php if($this->options['showdebugoutput']) echo 'checked="checked"' ?>><?php _e("Print url and the returned data from picasaweb when a connection failure occured",'picasaView'); ?></label></p>
+				</td>
+			</tr>	
+		</tbody>
+	</table>
+
+	<h3><?php _e('Display settings', 'picasaView') ?></h3>
+	<table class="form-table">
+		<tbody>
+			<tr valign="top">
+				<th scope="row"><?php _e('Date/Time format','picasaView'); ?>:</th>
+				<td><input name="picasaView_options[datetimeformat]" type="text" id="picasaView_datetimeformat" value="<?php echo $this->options['datetimeformat'] ?>" size="50" maxlength="50" />
+				<p class="setting-description"><?php _e("Date format that is used when displaying date information. For all allowed format please see the <a href=\"http://php.net/manual/en/function.strftime.php\">php strftime-documentation</a>.",'picasaView'); ?></p>
+				</td>
+			</tr>
+			<tr valign="top">
+				<th scope="row"><?php _e('Thumbnail size','picasaView'); ?>:</th>
+				<td>
+			<select name="picasaView_options[thumbnailSize]" id="picasaView_thumbnailSize">
+			<?php
+			foreach ($this->imageSizes as $size) { 
+			?>
+				<option <?php if ($this->options['thumbnailsize'] == $size) { echo 'selected'; } ?> value="<?php echo attribute_escape($size); ?>"><?php echo $size; ?>px</option>
+			<?php } ?>
+			</select>
+			<p><label><input name="picasaView_options[cropThumbnails]" id="picasaView_cropThumbnails" type="checkbox" value="1" <?php if($this->options['cropthumbnails']) echo 'checked="checked"' ?>><?php _e("Crop thumbnails (only available for the sizes 32, 48, 64, 72, 104, 144, 150, 160)",'picasaView'); ?></label></p>
+			</td>
+			</tr>
+			<tr valign="top">
+				<th scope="row"><?php _e('Full image size','picasaView'); ?>:</th>
+				<td>
+			<select name="picasaView_options[imageSize]">
+			<?php foreach ($this->imageSizes as $size) { ?>
+				<option <?php if ($this->options['imagesize'] == $size) { echo 'selected'; } ?> value="<?php echo attribute_escape($size); ?>"><?php echo $size; ?>px</option>
+			<?php } ?>
+			</select>
+			<p class="setting-description"><?php _e("1024 and above will *not* work right now due to restrictions on picasaweb (blame Google for this).",'picasaView'); ?></p>
+			</td>
+			</tr>
+			<tr valign="top">
+				<th scope="row"><?php _e('Images per page','picasaView'); ?>:</th>
+				<td><input name="picasaView_options[imagesPerPage]" type="text" id="picasaView_imagesPerPage" value="<?php echo $this->options['imagesperpage'] ?>" size="5" maxlength="3" />
+				<p class="setting-description"><?php _e("insert <code>0</code> to disable paging and show all images on the same page",'picasaView'); ?></p>
+				</td>
+			</tr>
+			<tr valign="top">
+				<th scope="row"><?php _e('Quick paging','picasaView'); ?>:</th>
+				<td>
+					<p><label><input name="picasaView_options[quickPaging]" type="checkbox" value="1" <?php if($this->options['quickpaging']) echo 'checked="checked"' ?>><?php _e("use JavaScript for paging (a lot faster and more beautiful when flipping through your image pages)",'picasaView'); ?></label></p>
+				</td>
+			</tr>
+
+		</tbody>
+	</table>
+
+<p class="submit">
+	<input type="hidden" name="page_options" value="picasaView_options" />
+	<input type="hidden" name="action" value="update" />
+	<input type="submit" class="button-primary" value="<?php _e('Save Changes') ?>" />
+</p>
+
+
+
+</form>
+</div>		
+		

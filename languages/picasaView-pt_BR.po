@@ -1,0 +1,123 @@
+# Diego Búrigo Zacarão <diegobz@fedoraproject.org>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: picasaView\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-06 19:13-0300\n"
+"PO-Revision-Date: 2011-07-07 22:10+0100\n"
+"Last-Translator: Diego Búrigo Zacarão <diegobz@fedoraproject.org>\n"
+"Language-Team: Brazilian Portuguese <fedora-trans-pt_br@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: picasaview.php:250
+msgid "Photos"
+msgstr "Fotos"
+
+#: picasaview.php:346
+msgid "Location"
+msgstr "Localização"
+
+#: picasaview.php:347
+msgid "Previous"
+msgstr "Anterior"
+
+#: picasaview.php:349
+msgid "Next"
+msgstr "Próximo"
+
+#: picasaview.php:355
+msgid "Viewing images"
+msgstr "Visualizando imagens"
+
+#: picasaview.php:357
+msgid "of"
+msgstr "de"
+
+#: picasaview.php:363
+msgid "Back to post"
+msgstr "Voltar"
+
+#: picasaview.php:512
+msgid "PicasaView Options"
+msgstr "Opções do PicasaView"
+
+#: picasaview.php:520
+msgid "Connection settings"
+msgstr "Configurações de conexão"
+
+#: picasaview.php:522
+msgid "Bad news: You need PHP5 to run this plugin, sorry. You have installed PHP "
+msgstr "Má notícia: Desculpe, mas você precisa do PHP5 para executar esse plugin. Você tem instalado o PHP "
+
+#: picasaview.php:524
+msgid "Bad news: the required PHP extension <code>SimpleXML</code> (which is usually enabled by default) on your server is not available. Blame your provider. Sorry."
+msgstr "Má notícia: a requerida extensão PHP <code>SimpleXML</code> (que é normalmente habilidata por padrão) não está disponível no servidor. Culpe seu provedor de hospedagem. Desculpe."
+
+#: picasaview.php:529
+msgid "Server-URL"
+msgstr "URL do servidor"
+
+#: picasaview.php:533
+msgid "User Id"
+msgstr "Id do usuário"
+
+#: picasaview.php:538
+msgid "Debug output"
+msgstr "Saída de Debug"
+
+#: picasaview.php:540
+msgid "Print url and the returned data from picasaweb when a connection failure occured"
+msgstr "Mostra a URL e os dados retornados a partir do picasaweb quando a um erro de conexão ocorrer"
+
+#: picasaview.php:546
+msgid "Display settings"
+msgstr "Mostrar configurações"
+
+#: picasaview.php:550
+msgid "Date/Time format"
+msgstr "Formato de Data/Hora"
+
+#: picasaview.php:552
+msgid "Date format that is used when displaying date information. For all allowed format please see the <a href=\"http://php.net/manual/en/function.strftime.php\">php strftime-documentation</a>."
+msgstr "Formato de data que é usado quando mostrando informações de datas. Para saber todos os formatos aceitos veja a <a href=\"http://php.net/manual/en/function.strftime.php\">documentação sobre strftime do PHP</a>."
+
+#: picasaview.php:556
+msgid "Thumbnail size"
+msgstr "Tamanho do Thumbnails"
+
+#: picasaview.php:565
+msgid "Crop thumbnails (only available for thumbnails smaller than 200px)"
+msgstr "Cortar thumbnails (disponível apenas para thumbnails menores que 200px)"
+
+#: picasaview.php:569
+msgid "Full image size"
+msgstr "Tamanho da imagem inteira"
+
+#: picasaview.php:576
+msgid "1024 and above will *not* work right now due to restrictions on picasaweb (blame Google for this)."
+msgstr "1024 e maiores *não* funcionarão por causa de restrições no picasaweb (culpe a Google por isso)."
+
+#: picasaview.php:580
+msgid "Images per page"
+msgstr "Imagens por página"
+
+#: picasaview.php:582
+msgid "insert <code>0</code> to disable paging and show all images on the same page"
+msgstr "insira <code>0</code> para desabilitar paginação e mostrar todas as imagens na mesma página"
+
+#: picasaview.php:586
+msgid "Quick paging"
+msgstr "Páginação rápida"
+
+#: picasaview.php:588
+msgid "use JavaScript for paging (a lot faster and more beautiful when flipping through your image pages)"
+msgstr "usa JavaScript para a paginação (muito mais rápido e mais bonito quando mudando de página de imagens)"
+
+#: picasaview.php:596
+msgid "Save Changes"
+msgstr "Salvar Mudanças"
+

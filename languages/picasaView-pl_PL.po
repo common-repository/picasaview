@@ -1,0 +1,158 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: picasaView\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-07 22:10+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Simon Sattes <simon.sattes@googlemail.com>\n"
+"Language-Team: Simon Sattes <simon.sattes@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: admintemplates\n"
+
+#: picasaview.php:249
+msgid "Photos"
+msgstr "Zdjęć"
+
+#: picasaview.php:339
+msgid "Location"
+msgstr "Lokalizacja"
+
+#: picasaview.php:340
+msgid "Previous"
+msgstr "wstecz"
+
+#: picasaview.php:342
+msgid "Next"
+msgstr "dalej"
+
+#: picasaview.php:348
+msgid "Viewing images"
+msgstr "Wyświetlane zdjęcia"
+
+#: picasaview.php:350
+msgid "of"
+msgstr "z"
+
+#: picasaview.php:356
+msgid "Back to post"
+msgstr "Powrót"
+
+#: admintemplates/admin-menu-options.phtml:1
+msgid "PicasaView Options"
+msgstr "Opcje pluginu PicasaView"
+
+#: admintemplates/admin-menu-options.phtml:6
+msgid "Connection settings"
+msgstr "Ustawienia połączenia"
+
+#: admintemplates/admin-menu-options.phtml:8
+msgid "Bad news: You need PHP5 to run this plugin, sorry. You have installed PHP "
+msgstr "Złe informacje: Potrzebujesz PHP w wersji 5 aby uruchomić ten plugin."
+
+#: admintemplates/admin-menu-options.phtml:10
+msgid "Bad news: the required PHP extension <code>SimpleXML</code> (which is usually enabled by default) on your server is not available. Blame your provider. Sorry."
+msgstr "Złe informacje: wymagane rozszerzenie PHP <code>SimpleXML</code>, które na ogół jest dostępne, na twoim serwerze nie jest dostępne. Skontaktuj się ze swoim providerem. "
+
+#: admintemplates/admin-menu-options.phtml:15
+msgid "Server-URL"
+msgstr "URL serwera"
+
+#: admintemplates/admin-menu-options.phtml:19
+msgid "User Id"
+msgstr "Id użytkownika"
+
+#: admintemplates/admin-menu-options.phtml:24
+msgid "Debug output"
+msgstr "Tryb debugowania"
+
+#: admintemplates/admin-menu-options.phtml:26
+msgid "Print url and the returned data from picasaweb when a connection failure occured"
+msgstr "Wyświetla adres url i zwrócone dane z picasaweb w przypadu problemów z połączeniem"
+
+#: admintemplates/admin-menu-options.phtml:32
+msgid "Display settings"
+msgstr "Ustawienia wyświetlania"
+
+#: admintemplates/admin-menu-options.phtml:36
+msgid "Date/Time format"
+msgstr "Format daty/czasu"
+
+#: admintemplates/admin-menu-options.phtml:38
+msgid "Date format that is used when displaying date information. For all allowed format please see the <a href=\"http://php.net/manual/en/function.strftime.php\">php strftime-documentation</a>."
+msgstr "Format daty używany przy wyświetlaniu dodatkowych informacji o zdjęciach. Aby zobaczyć dostępne formaty zapoznaj się z dokumentacją <a href=\"http://php.net/manual/en/function.strftime.php\">Dokumentacja funkcji PHP strftime</a>"
+
+#: admintemplates/admin-menu-options.phtml:42
+msgid "Thumbnail size"
+msgstr "Rozmiar miniaturek"
+
+#: admintemplates/admin-menu-options.phtml:51
+#, fuzzy
+msgid "Crop thumbnails (only available for the sizes 32, 48, 64, 72, 104, 144, 150, 160)"
+msgstr "Przytnij miniaturkę (dostępne tylko dla miniaturek poniżej 200px)"
+
+#: admintemplates/admin-menu-options.phtml:55
+msgid "Full image size"
+msgstr "Rozmiar dużego zdjęcia"
+
+#: admintemplates/admin-menu-options.phtml:62
+msgid "1024 and above will *not* work right now due to restrictions on picasaweb (blame Google for this)."
+msgstr "1024 i powyżej nie będzie działało prawidłowo w tej chwili z powodu ograniczeń na picasaweb (winić należy Google)."
+
+#: admintemplates/admin-menu-options.phtml:66
+msgid "Images per page"
+msgstr "Zdjęć na strone"
+
+#: admintemplates/admin-menu-options.phtml:68
+msgid "insert <code>0</code> to disable paging and show all images on the same page"
+msgstr "Wstawienie <code>0</code> wyłącza stronnicowanie i pokazuję wszystkie zdjęcia na tej samej stronie"
+
+#: admintemplates/admin-menu-options.phtml:72
+msgid "Quick paging"
+msgstr "Szybkie stronnicowanie"
+
+#: admintemplates/admin-menu-options.phtml:74
+msgid "use JavaScript for paging (a lot faster and more beautiful when flipping through your image pages)"
+msgstr "Użyj JavaScriptu do stronnicowania (umożliwia szybciejsze przeglądanie zdjęć)"
+
+#: admintemplates/admin-menu-options.phtml:84
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#~ msgid "Connect through"
+#~ msgstr "Verbindung via"
+
+#~ msgid "supported on this server"
+#~ msgstr "vom Server unterst&uuml;tzt"
+
+#~ msgid "not supported on this server"
+#~ msgstr "vom Server nicht unterst&uuml;tzt"
+
+#~ msgid ""
+#~ "probably not supported on this server, google.com connection check failed"
+#~ msgstr ""
+#~ "wird vom Server vermutlich nicht unterst&uuml;tzt. Verbindungstest zu "
+#~ "google.com fehlgeschlagen."
+
+#~ msgid ""
+#~ "If you don't know what this means, you should favor CURL at first, then "
+#~ "file_get_contents() and then fsockopen()"
+#~ msgstr ""
+#~ "Im Zweifelsfall CURL bevorzugen, dann file_get_contents() und schließlich "
+#~ "fsockopen()"
+
+#~ msgid "Update PicasaView"
+#~ msgstr "&Auml;nderungen speichern"
+
+#~ msgid "Load RSS with"
+#~ msgstr "RSS laden mit Hilfe von"
+
+#~ msgid "Default is"
+#~ msgstr "Voreinstellung ist"

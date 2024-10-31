@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: picasaView\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-07 22:10+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Simon Sattes <simon.sattes@googlemail.com>\n"
+"Language-Team: Simon Sattes <simon.sattes@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: admintemplates\n"
+
+#: picasaview.php:249
+msgid "Photos"
+msgstr "Foto's"
+
+#: picasaview.php:339
+msgid "Location"
+msgstr "Locatie"
+
+#: picasaview.php:340
+msgid "Previous"
+msgstr "vorige"
+
+#: picasaview.php:342
+msgid "Next"
+msgstr "volgende"
+
+#: picasaview.php:348
+msgid "Viewing images"
+msgstr "Beelden bekijken"
+
+#: picasaview.php:350
+msgid "of"
+msgstr "van"
+
+#: picasaview.php:356
+msgid "Back to post"
+msgstr "Terug naar het artikel"
+
+#: admintemplates/admin-menu-options.phtml:1
+msgid "PicasaView Options"
+msgstr "PicasaView instellingen"
+
+#: admintemplates/admin-menu-options.phtml:6
+msgid "Connection settings"
+msgstr "Verbindingen"
+
+#: admintemplates/admin-menu-options.phtml:8
+msgid "Bad news: You need PHP5 to run this plugin, sorry. You have installed PHP "
+msgstr "Slecht nieuws: U heeft minimaal PHP5 nodig om met deze plugin te kunnen werken, sorry. U heeft PHP wel geïnstalleerd"
+
+#: admintemplates/admin-menu-options.phtml:10
+msgid "Bad news: the required PHP extension <code>SimpleXML</code> (which is usually enabled by default) on your server is not available. Blame your provider. Sorry."
+msgstr "Slecht nieuws: de benodigde PHP extensie <code>SimpleXML</code> (welke normaal standaad aan staat) op uw server is niet beschikbaar. Geef uw provider maar de schuld. Sorry"
+
+#: admintemplates/admin-menu-options.phtml:15
+msgid "Server-URL"
+msgstr "Server-URL"
+
+#: admintemplates/admin-menu-options.phtml:19
+msgid "User Id"
+msgstr "User-Id"
+
+#: admintemplates/admin-menu-options.phtml:24
+msgid "Debug output"
+msgstr "Debug-weergave"
+
+#: admintemplates/admin-menu-options.phtml:26
+msgid "Print url and the returned data from picasaweb when a connection failure occured"
+msgstr "Geef de URL en de foutweergave van de data die picasaweb geeft wanneer er geen verbinding tot stand is gekomen"
+
+#: admintemplates/admin-menu-options.phtml:32
+msgid "Display settings"
+msgstr "Beeldscherm instellingen"
+
+#: admintemplates/admin-menu-options.phtml:36
+msgid "Date/Time format"
+msgstr "Datum en tijd formaat"
+
+#: admintemplates/admin-menu-options.phtml:38
+msgid "Date format that is used when displaying date information. For all allowed format please see the <a href=\"http://php.net/manual/en/function.strftime.php\">php strftime-documentation</a>."
+msgstr "Datum formaat  dat gebruikt wordt wanneer je de datum weergave  aan hebt staan.  Voor de mogelijkheden kijk een hier <a href=\"http://php.net/manual/en/function.strftime.php\">php strftime-documentation</a>."
+
+#: admintemplates/admin-menu-options.phtml:42
+msgid "Thumbnail size"
+msgstr "Thumbnail grootte"
+
+#: admintemplates/admin-menu-options.phtml:51
+#, fuzzy
+msgid "Crop thumbnails (only available for the sizes 32, 48, 64, 72, 104, 144, 150, 160)"
+msgstr "Thumbnails snijden (alleen beschikbaar bij thumbnails kleiner dan 200px)"
+
+#: admintemplates/admin-menu-options.phtml:55
+msgid "Full image size"
+msgstr "Volledige afbeeldingsgrootte"
+
+#: admintemplates/admin-menu-options.phtml:62
+msgid "1024 and above will *not* work right now due to restrictions on picasaweb (blame Google for this)."
+msgstr "1024 en hover zal *niet* werken vanwege de restricties op picasaweb (geef Google maar de schuld hiervoor)."
+
+#: admintemplates/admin-menu-options.phtml:66
+msgid "Images per page"
+msgstr "Beelden per pagina"
+
+#: admintemplates/admin-menu-options.phtml:68
+msgid "insert <code>0</code> to disable paging and show all images on the same page"
+msgstr "Voeg <code>0</code> in om paging uit te schakelen en alle beelden op 1 pagina weer te geven"
+
+#: admintemplates/admin-menu-options.phtml:72
+msgid "Quick paging"
+msgstr "Snel pagineren"
+
+#: admintemplates/admin-menu-options.phtml:74
+msgid "use JavaScript for paging (a lot faster and more beautiful when flipping through your image pages)"
+msgstr "Gebruik Javascript om te pagineren (een stuk sneller en veel mooier wanneer je door je beelden bladert)"
+
+#: admintemplates/admin-menu-options.phtml:84
+msgid "Save Changes"
+msgstr "Bewaar aanpassingen"
+

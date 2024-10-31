@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: picasaView\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-07 22:10+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Simon Sattes <simon.sattes@googlemail.com>\n"
+"Language-Team: Simmon Sattes / traducción Núria Ramoneda <simon.sattes@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;__ngettext_noop:1,2;_c\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: admintemplates\n"
+
+#: picasaview.php:249
+msgid "Photos"
+msgstr "Fotos"
+
+#: picasaview.php:339
+msgid "Location"
+msgstr "Ubicación"
+
+#: picasaview.php:340
+msgid "Previous"
+msgstr "Anterior"
+
+#: picasaview.php:342
+msgid "Next"
+msgstr "Siguiente"
+
+#: picasaview.php:348
+msgid "Viewing images"
+msgstr "imágenes"
+
+#: picasaview.php:350
+msgid "of"
+msgstr "de"
+
+#: picasaview.php:356
+msgid "Back to post"
+msgstr "Volver al artículo"
+
+#: admintemplates/admin-menu-options.phtml:1
+msgid "PicasaView Options"
+msgstr "Opciones de PicasaView"
+
+#: admintemplates/admin-menu-options.phtml:6
+msgid "Connection settings"
+msgstr "Configuración de la conexión"
+
+#: admintemplates/admin-menu-options.phtml:8
+msgid "Bad news: You need PHP5 to run this plugin, sorry. You have installed PHP "
+msgstr "Malas notícias: necesita PHP5 para utilizar este plugin. Ahora tiene instalada la versión de PHP"
+
+#: admintemplates/admin-menu-options.phtml:10
+msgid "Bad news: the required PHP extension <code>SimpleXML</code> (which is usually enabled by default) on your server is not available. Blame your provider. Sorry."
+msgstr "Malas noticias: la extensión de PHP5 <code>SimpleXML</code> (que generalmente está activa por defecto) no está activa en su servidor y es necesaria para utilizar este plugin. Pídalo a su proveedor. Disculpe las molestias."
+
+#: admintemplates/admin-menu-options.phtml:15
+msgid "Server-URL"
+msgstr "URL del servidor"
+
+#: admintemplates/admin-menu-options.phtml:19
+msgid "User Id"
+msgstr "Id de usuario"
+
+#: admintemplates/admin-menu-options.phtml:24
+msgid "Debug output"
+msgstr "Salida de depuración"
+
+#: admintemplates/admin-menu-options.phtml:26
+msgid "Print url and the returned data from picasaweb when a connection failure occured"
+msgstr "Imprime la URL y los datos de retorno de Picasaweb cuando hay un problema de conexión "
+
+#: admintemplates/admin-menu-options.phtml:32
+msgid "Display settings"
+msgstr "Muestra la configuración"
+
+#: admintemplates/admin-menu-options.phtml:36
+msgid "Date/Time format"
+msgstr "Formato fecha/hora"
+
+#: admintemplates/admin-menu-options.phtml:38
+msgid "Date format that is used when displaying date information. For all allowed format please see the <a href=\"http://php.net/manual/en/function.strftime.php\">php strftime-documentation</a>."
+msgstr "Formato de fecha usado para mostrar información de fecha. Para ver todos los formatos posibles er a tots els formats possibles dele una ojeada a <a href=\"http://php.net/manual/en/function.strftime.php\">la documentación de PHP sobre formatos de fecha</a>."
+
+#: admintemplates/admin-menu-options.phtml:42
+msgid "Thumbnail size"
+msgstr "Medida de las miniaturas"
+
+#: admintemplates/admin-menu-options.phtml:51
+#, fuzzy
+msgid "Crop thumbnails (only available for the sizes 32, 48, 64, 72, 104, 144, 150, 160)"
+msgstr "Recorta las miniaturas (sólo disponible si éstas son más pequeñas de 200px)"
+
+#: admintemplates/admin-menu-options.phtml:55
+msgid "Full image size"
+msgstr "Medida de la imagen grande"
+
+#: admintemplates/admin-menu-options.phtml:62
+msgid "1024 and above will *not* work right now due to restrictions on picasaweb (blame Google for this)."
+msgstr "medidas de 1024 y superiores no funcionarán correctamente debido a restricciones del servicio Picasa (puede quejarse a Google por ello)"
+
+#: admintemplates/admin-menu-options.phtml:66
+msgid "Images per page"
+msgstr "Imágenes por página"
+
+#: admintemplates/admin-menu-options.phtml:68
+msgid "insert <code>0</code> to disable paging and show all images on the same page"
+msgstr "Inserta un <code>0</code> para desactivar la paginación y mostrar todas las imágenes en la misma página."
+
+#: admintemplates/admin-menu-options.phtml:72
+msgid "Quick paging"
+msgstr "Paginación rápida"
+
+#: admintemplates/admin-menu-options.phtml:74
+msgid "use JavaScript for paging (a lot faster and more beautiful when flipping through your image pages)"
+msgstr "usa Javascript para paginar (irá más rápido y  más rápido cuando el usuario hojee las páginas de imágenes)"
+
+#: admintemplates/admin-menu-options.phtml:84
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
